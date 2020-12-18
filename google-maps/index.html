@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="citiesWithCoordinates.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <div id="container">
+        <ul id="regions"></ul>
+
+        <button id="check-button" onclick="checkOrUncheckAll()">
+            Desmarcar tudo
+        </button>
+    </div>
+
+    <!-- replace the curly braces by your Google Maps API key:
+    https://developers.google.com/maps/documentation/javascript/get-api-key?hl=pt-br -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key={}&callback=initMap">
+        </script>
+</body>
+
+</html>

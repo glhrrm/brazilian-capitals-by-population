@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+#regions {
+    background-color: white;
+    border-radius: 20px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    line-height: 1.6em;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 0 5px darkgray;
+    margin: 0;
+    width: 100%;
+}
+
+.region {
+    padding: 3px 20px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.region:hover {
+    filter: brightness(50%);
+}
+
+#container {
+    position: absolute;
+    right: 100px;
+    margin: 20px;
+    text-align: center;
+    width: 150px
+}
+
+#check-button {
+    background-color: #FFF;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 0 5px darkgray;
+    margin-top: 10px;
+    cursor: pointer;
+}
